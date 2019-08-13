@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.retrofit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.retrofit.core.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Retrofit"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.retrofit.activity.ChannelActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.retrofit.activity.UserActivityCallback" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.retrofit.activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.retrofit.activity.LoginActivityCallback">
+        </activity>
+        <activity android:name="com.example.retrofit.activity.SingUpActivity">
+
+        </activity>
+    </application>
+
+</manifest>
